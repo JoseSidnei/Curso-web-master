@@ -1,0 +1,32 @@
+html.body{
+	height: 100%;
+}
+
+.box{
+	width: 40%;
+	height: 300px;
+	color: gray;
+}
+
+.box2{
+	height: 900px;
+}
+
+.box p{
+	color: initial; /*para usar default/padrão */ 
+	margin: initial;
+	/*
+	display: inline-block;
+	width: inherit;
+	height: inherit;
+	background: inherit;
+	*/
+}
+
+/*
+@media screen and (max-width: 480px){
+	.box{
+		height: auto;
+	}
+}
+*/

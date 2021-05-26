@@ -1,0 +1,19 @@
+html.body{
+	height: 100%;
+}
+
+.box{
+	width: 300px;
+	height: 200px;
+	margin: 0 auto;
+	display: none;
+	background:  gray;
+	/*
+	overflow-x: hidden;
+	overflow-y: hidden;
+	/*
+}
+
+.box p{
+	width: 500px;
+}

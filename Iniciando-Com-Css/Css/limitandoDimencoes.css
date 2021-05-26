@@ -1,0 +1,46 @@
+html, body{
+	height: 100%;
+}
+
+/*
+.header{
+	width: 100%;
+	height: 200px;
+	background: gray;
+}
+*/
+
+/*
+.article{
+	margin: 0 auto;
+	width: 1280px;
+	height: 10%;
+	min-height: 50%;
+	background: red;
+}
+*/
+
+.center{
+	box-sizing: border-box;
+	width: 1280px;
+	margin: 0 auto;
+	background-color: gray;
+	/*Para espassamento maior*/
+	/*padding-left: 30px;*/
+	
+}
+
+.artigo{
+	box-sizing: border-box;
+	/*border-style: dotted;
+	border-width: 3px;
+	border-color: rgb(255,0,0);*/
+	border: 3px dotted red;
+	vertical-align: top;
+	/*margin: 10px 15px;*/
+	display: inline-block;	
+	margin-right: -4px;
+	margin-top: 30px;
+	width: 640px;
+
+}

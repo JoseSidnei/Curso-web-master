@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+.teste,.teste01,.teste02{
+	width: 300px;
+	margin-top: 30px;
+	margin-left: 30px;
+	display: inline-block;
+	height: 30px;
+	/*
+	background-color: #ccc;
+	*/
+}
+
+.teste01 {
+	background-color: rgb(98,98,98);
+}
+
+.teste02 {
+	background-color: rgb(50,50,50);
+}
+
+/* 
+Efeito hover quando passamos mouse em cima do elemento.
+
+.teste:hover{
+	height: 900px;
+	background-color: blue;
+}
+
+.teste:hover ,.teste01,.teste02{
+	vertical-align: top;
+}
+*/
+
+/*
+Active serve para quando estamos com mouse precionado em cima do nosso elemento.
+.teste:active{
+	background-color: black;
+}
+*/
+
+/*
+Focus: ao clicar e focar no elemento formularios.
+.teste:focus {
+	background-color: red;
+}
+
+.textarea1 {
+	display: block;
+	width: 600px;
+	height: 400px;
+}
+*/
+
+/*
+.link01:visited {
+	color: purple;
+}
+*/
+
+/*
+.link01:link {
+	color: orange;
+}
+*/

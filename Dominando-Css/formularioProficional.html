@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Meu site</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../DominandoCss/FormularioProficional/formularioProficional.css">
+	</head>
+
+	<body>
+		
+		<form>
+			<fieldset>
+				<legend>Meu formulário</legend>
+				<div><input type="text" name="nome" placeholder="Digite seu nome"></div>
+				<div><input type="text" name="email" placeholder="Digite seu e-mail"></div>
+				<div>
+					<select name="lista">
+						<option disabled selected>Qual sua idade?</option>
+						<option value="18">18 a 26</option>
+						<option value="27">27 a 35</option>
+						<option value="36">36 a 44</option>
+					</select>
+				</div>
+
+				<h2>Qual sua cidade?</h2>
+				<div class="input">
+				<div>					
+					<input type="radio" name="cidade" value="Blumenau" /><span>Blumenau</span>
+				</div>
+
+				<div>					
+					<input type="radio" name="cidade" value="Indaial" /><span>Indaial</span>
+				</div>
+
+				<div>					
+					<input type="radio" name="cidade" value="Timbo" /><span>Timbó</span>
+				</div>
+				</div>
+
+				<h2>O que você gosta de comer?</h2>
+				<div class="input">
+				<div>					
+					<input type="checkbox" name="comida[]" value="Fast food" /><span>Fast food</span>
+				</div>
+
+				<div>					
+					<input type="checkbox" name="comida[]" value="Salada" /><span>Salada</span>
+				</div>
+
+				<div>					
+					<input type="checkbox" name="comida[]" value="Churrasco" /><span>Churrasco</span>
+				</div>
+
+				</div>
+
+					<div>
+						<textarea name="observacao" placeholder="Observação"></textarea>
+					</div>
+
+					<div>
+						<input type="submit" name="acao" value="Enviar!">
+					</div>
+
+			</fieldset>
+		</form>
+
+	</body>
+
+</html>

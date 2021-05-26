@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,body {
+	height: 100%;
+}
+/*
+Estilizando input de adicionar arquivos
+
+input[type=file] {
+	display: none;
+}
+
+label {
+	display: block;
+	margin: 20px auto;
+	cursor: pointer;
+	font-size: 17px;
+	width: 220px;
+	height: 40px;
+	background-color: #ccc;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+}
+*/
+
+/*
+Estilizando select adicionando uma imagen de seta*/
+
+form {
+	text-align:  center;
+	background-color: #ccc;
+	padding: 30px 0;
+}
+
+/*
+form select {
+	width: 220px;
+	height: 40px;
+	border: 0;
+	background-image: url('../imagens/seta.png');
+	background-size: 30px 40px;
+	background-repeat: no-repeat;
+	background-position: right top; 
+	appearance: none;
+}
+*/
+
+input[type=checkbox] {
+	display: none;
+}
+
+label {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-color: green;
+}
+
+input[type=checkbox]:checked + label {
+	background-color: red;
+}

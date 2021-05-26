@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*
+Importando do próprio diretório
+*/
+
+@font-face {
+	font-family: "Minha Fonte";
+	src:url('../fonts/OpenSans-Light.ttf');
+}
+
+html,body {
+	height: 100%;
+	font-family: "Open Sans";
+}
+
+form * {
+	font-family: "Open Sans";
+}
+
+
+
+/*
+Quando utilimos o important o nivel de especificação deixa de existir.
+Quando todos utilizam important tudo volta a contar.
+
+.box p {
+	font-family: "Minha Fonte";
+}
+
+.text {
+	font-family: tahoma !important;
+}
+*/
+
+
